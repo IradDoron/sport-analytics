@@ -4,9 +4,9 @@ import Form from "./Form";
 import Button from "../Button/Button";
 
 function Add_Trianing() {
-  const header = Header('Welcome to your Training App');
+  const header = Header("Welcome to your Training App");
 
-  return <>  </>;
+  return <> </>;
 }
 
 export default Add_Trianing;
