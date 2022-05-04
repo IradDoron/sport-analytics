@@ -1,58 +1,73 @@
 import styled from "styled-components";
+const FormEL = styled.form`
+  font-size: 3rem;
+`;
+const LabelEL = styled.label`
+  font-size: 3rem;
+`;
+const InputEL = styled.input`
+  font-size: 3rem;
+`;
+const H2EL = styled.h2`
+  font-size: 3rem;
+`;
+const ButtonEL = styled.button`
+  font-size: 3rem;
+`;
 
 function Form() {
   return (
-    <form>
-      <label>
+    <FormEL>
+      <LabelEL>
         Your Trianig Date:
-        <input type="date" />
-      </label>
-      <h2>Running</h2>
-      <label>
+        <InputEL type="date" />
+      </LabelEL>
+      <H2EL>Running</H2EL>
+      <LabelEL>
         running duration:
-        <input type="time" />
-      </label>
-      <label>
+        <InputEL type="time" />
+      </LabelEL>
+      <LabelEL>
         Distance (KM):
-        <input type="number" />
-      </label>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <LabelEL>
         Are you training in intervale?
-        <input type="number" />
-      </label>
-      <h3>Pullups</h3>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <H2EL>Pullups</H2EL>
+      <LabelEL>
         Sets:
-        <input type="number" />
-      </label>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <LabelEL>
         Reps:
-        <input type="number" />
-      </label>
-      <h3>Pushups</h3>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <H2EL>Pushups</H2EL>
+      <LabelEL>
         Sets:
-        <input type="number" />
-      </label>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <LabelEL>
         Reps:
-        <input type="number" />
-      </label>
-      <h3>Squats</h3>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <H2EL>Squats</H2EL>
+      <LabelEL>
         Sets:
-        <input type="number" />
-      </label>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <LabelEL>
         Reps:
-        <input type="number" />
-      </label>
-      <label>
+        <InputEL type="number" />
+      </LabelEL>
+      <LabelEL>
         Feeling:
-        <input type="number" />
-      </label>
-      <button type="submit">Submit</button>
-    </form>
+        <InputEL type="number" />
+      </LabelEL>
+      <ButtonEL type="submit">Submit</ButtonEL>
+    </FormEL>
   );
 }
 
