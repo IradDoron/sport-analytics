@@ -1,9 +1,9 @@
-import Add_Trianing from './components/Add_Trianing/Add_Trianing.jsx';
+import AddTrianing from './components/AddTrianing/AddTrianing.jsx';
 
 function App() {
   return (
     <>
-      <Add_Trianing />
+      <AddTrianing />
     </>
   );
 }
